@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(220, 226, 245);
+    font-family: sans-serif;
+    font-size: 16px;
+
+}
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding:50px 100px;
+    
+}
+.button{
+    background-color: rgb(63, 120, 224);
+    border:none;
+    padding:10px 24px 10px 24px;
+    text-align: center;
+    font-size:16px;
+    margin:0px 3px;
+    color: white;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;  
+    color:black;
+}
+p {
+
+    padding: 10px;
+}
+.hr{
+    opacity: 0.5;
+}
+.bottom {
+    display: flex;
+    
+
+}
+.media{
+float:right;
+}
+a:hover{
+    color:blue;
+}
